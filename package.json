@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-crocks",
+  "version": "0.0.0",
+  "description": "Verifies crocks import order",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Karthik Iyengar",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "crocks": "^0.12.4",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2",
+    "tape": "^4.13.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
