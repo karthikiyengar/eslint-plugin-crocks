@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "crocks/rule-name": 2
+        "crocks/import-order": 2
     }
 }
 ```
